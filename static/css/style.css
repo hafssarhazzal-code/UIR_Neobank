@@ -1,0 +1,47 @@
+/* static/css/style.css */
+.stApp {
+    background-color: #f8f9fa;
+}
+
+.main-header {
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.chat-message {
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.chat-message.user {
+    background-color: #007bff;
+    color: white;
+    margin-left: 20%;
+}
+
+.chat-message.assistant {
+    background-color: #e9ecef;
+    color: #333;
+    margin-right: 20%;
+}
+
+.ocr-result {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
