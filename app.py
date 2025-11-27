@@ -7,6 +7,11 @@ import plotly.express as px
 import pandas as pd
 from PIL import Image
 
+import pytesseract
+
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+
 # Configuration de la page
 st.set_page_config(
     page_title="UIR Neobank",
